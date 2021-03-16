@@ -43,4 +43,4 @@ notifier.subscribe(CHANNEL_ID);
 app.use("/yt", notifier.listener());
 
 
-client.login(process.env.token)
+client.login(process.env.TOKEN)
